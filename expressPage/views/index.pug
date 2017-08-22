@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h3 Master (list all people)
+	hr
+	h4 Admin Name
+	h4 Created Date
+	hr
+	-for(let i = 0; i < people.length; i++)
+		div(id="adminName") #{people[i].firstname} #{people[i].lastname} #{people[i].createdDate}
+		button
+		hr

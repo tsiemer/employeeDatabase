@@ -1,0 +1,32 @@
+body{
+	font-family:'Saira Semi Condensed', sans-serif;
+	background-color:#F4F6F6  ;
+}
+.myForm{
+	height:100vh;
+	margin-left:32%;
+	margin:auto;
+	background-color:darkred;
+	width:450px;
+}
+form{
+	padding:80px;
+}
+input[type=text]{
+	border: none;
+	border-bottom:solid black 1px;
+}
+input:focus{
+	outline: none;
+}
+button{
+	padding:5px 10px;
+	background-color:#333;
+	color:white;
+	border:none;
+	border-radius:5%;
+}
+button:focus{
+	outline:none;
+	background-color:black;
+}
